@@ -81,7 +81,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald", sans-serif;
-	font-weight: 300;
+	font-weight: bold;
 }
 
 /* ==========================================================================
@@ -249,13 +249,13 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(http://upload.wikimedia.org/wikipedia/commons/e/ee/Night_skyline_of_Toronto_May_2009.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
+	background-position: 50% 15%;
+	/* min-height: 475px; */
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -271,12 +271,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
+	margin-top: 80px;
+	padding-bottom: 10px;
+	/* letter-spacing: 8px; */
+	font-size: 60px;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.56);
+	opacity: 0.9;
 }
 
 /* About Wrap & Conf */
